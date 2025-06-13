@@ -1,8 +1,8 @@
-# Day 3 Submission
+# Day 6 Submission
 
 ## Personal Information
-- **Name:** Leon Musungu
-- **Date:** 2/6/2025
+ **Name:** Leon Musungu
+- **Date:** 5/6/2025
 - **GitHub Username:** luileonzawadi
 
 ## Task Completion
@@ -15,14 +15,14 @@
 ## Infrastructure Details
 
 ### Single Server Deployment
-- **Region:** [AWS Region]
-- **Instance Type:** [t2.micro] 
-- **Key Features:** [IPV6,vcpu]
+- **Region:** us-east-2
+- **Instance Type:** t2 micro
+- **Key Features:** DynamoDB,s3
 
 ### Web Server Deployment
-- **Region:** [AWS Region]
-- **Instance Type:** [t2.micro]
-- **Key Features:** [IPV6,]
+- **Region:** us-east-2
+- **Instance Type:** t2 micro
+- **Key Features:** Nginx
 
 ## Infrastructure Diagrams
 Please place your infrastructure diagrams in the `architecture` folder with the following files:
@@ -30,39 +30,37 @@ Please place your infrastructure diagrams in the `architecture` folder with the 
 - `web-server.png` - Diagram for the web server deployment
 
 ## Blog Post
-- **Title:** [i-just-deployed-my-first-server-with-terraform-heres-how-it-went]
-- **Link:** [https://medium.com/@leonmusungu138/i-just-deployed-my-first-server-with-terraform-heres-how-it-went-a516eb36b144]
+- **Title:**  Mastering Terraform State, A DevOps Guide to Best Practices
+- **Link:** https://medium.com/@leonmusungu138/b327981ade4b 
 
 ## Social Media
 - **Platform:** [Twitter/LinkedIn]
 - **Post Link:** [URL to your social media post]
 
 ## Notes and Observations
-[Share your key learnings, challenges faced, and how you overcame them]
+managing terrform state using AWS s3
+It highlighted the importance of understanding IAM policies,S3 bucket permissions and State locking using DynamoDB
+
 
 ## Additional Resources Used
-[List any additional resources you found helpful]
+🔗 Getting Started with Amazon S3
+🔗 S3 API Reference
+🔗 Amazon S3 Documentation
 
 ## Time Spent
-- Reading: [X hours]
+- Reading: [1 hours]
 - Infrastructure Deployment: [X hours]
 - Diagram Creation: [X hours]
-- Blog Writing: [X hours]
-- Total: [X hours]
+- Blog Writing: [1 hours]
+- Total: [2 hours]
 
 ## Repository Structure
 ```
-Day3/
+Day6/
 └── Submissions/
-    └── [Your GitHub Username]/
-        ├── architecture/
-        │   ├── single-server.png
-        │   └── web-server.png
+    └── luileonzawadi/
         ├── terraform/
-        │   ├── single-server/
-        │   │   └── main.tf
-        │   └── web-server/
-        │       └── main.tf
+        │     └── main.tf
         └── submission.md
 ``` 
 

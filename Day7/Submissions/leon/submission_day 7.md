@@ -1,8 +1,8 @@
-# Day 3 Submission
+# Day 7 Submission
 
 ## Personal Information
 - **Name:** Leon Musungu
-- **Date:** 2/6/2025
+- **Date:** 5/6/2025
 - **GitHub Username:** luileonzawadi
 
 ## Task Completion
@@ -16,13 +16,13 @@
 
 ### Single Server Deployment
 - **Region:** [AWS Region]
-- **Instance Type:** [t2.micro] 
-- **Key Features:** [IPV6,vcpu]
+- **Instance Type:** [EC2 Instance Type]
+- **Key Features:** [List key configurations]
 
 ### Web Server Deployment
 - **Region:** [AWS Region]
-- **Instance Type:** [t2.micro]
-- **Key Features:** [IPV6,]
+- **Instance Type:** [EC2 Instance Type]
+- **Key Features:** [List key configurations]
 
 ## Infrastructure Diagrams
 Please place your infrastructure diagrams in the `architecture` folder with the following files:
@@ -30,11 +30,11 @@ Please place your infrastructure diagrams in the `architecture` folder with the 
 - `web-server.png` - Diagram for the web server deployment
 
 ## Blog Post
-- **Title:** [i-just-deployed-my-first-server-with-terraform-heres-how-it-went]
-- **Link:** [https://medium.com/@leonmusungu138/i-just-deployed-my-first-server-with-terraform-heres-how-it-went-a516eb36b144]
+- **Title:** Terraform-state-isolation-split-it-or-switch-it
+- **Link:** https://medium.com/@leonmusungu138/d5eb535ac2bc
 
 ## Social Media
-- **Platform:** [Twitter/LinkedIn]
+- **Platform:** LinkedIn
 - **Post Link:** [URL to your social media post]
 
 ## Notes and Observations
@@ -44,26 +44,22 @@ Please place your infrastructure diagrams in the `architecture` folder with the 
 [List any additional resources you found helpful]
 
 ## Time Spent
-- Reading: [X hours]
-- Infrastructure Deployment: [X hours]
+- Reading: [1 hours]
+- Infrastructure Deployment: [1 hours]
 - Diagram Creation: [X hours]
-- Blog Writing: [X hours]
-- Total: [X hours]
+- Blog Writing: [1 hours]
+- Total: [3 hours]
 
 ## Repository Structure
 ```
-Day3/
+Day7/
 └── Submissions/
-    └── [Your GitHub Username]/
-        ├── architecture/
-        │   ├── single-server.png
-        │   └── web-server.png
+    └── luileonzawadi/
+        ├
         ├── terraform/
-        │   ├── single-server/
-        │   │   └── main.tf
-        │   └── web-server/
-        │       └── main.tf
-        └── submission.md
+        │   │   main.tf
+        │    ── variable.tf
+        └── submission_day 7.md
 ``` 
 
 

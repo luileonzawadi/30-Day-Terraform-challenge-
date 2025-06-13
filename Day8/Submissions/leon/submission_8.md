@@ -1,8 +1,8 @@
-# Day 3 Submission
+# Day 8 Submission
 
 ## Personal Information
 - **Name:** Leon Musungu
-- **Date:** 2/6/2025
+- **Date:** 6/6/2025
 - **GitHub Username:** luileonzawadi
 
 ## Task Completion
@@ -16,13 +16,13 @@
 
 ### Single Server Deployment
 - **Region:** [AWS Region]
-- **Instance Type:** [t2.micro] 
-- **Key Features:** [IPV6,vcpu]
+- **Instance Type:** [EC2 Instance Type]
+- **Key Features:** [List key configurations]
 
 ### Web Server Deployment
 - **Region:** [AWS Region]
-- **Instance Type:** [t2.micro]
-- **Key Features:** [IPV6,]
+- **Instance Type:** [EC2 Instance Type]
+- **Key Features:** [List key configurations]
 
 ## Infrastructure Diagrams
 Please place your infrastructure diagrams in the `architecture` folder with the following files:
@@ -30,8 +30,8 @@ Please place your infrastructure diagrams in the `architecture` folder with the 
 - `web-server.png` - Diagram for the web server deployment
 
 ## Blog Post
-- **Title:** [i-just-deployed-my-first-server-with-terraform-heres-how-it-went]
-- **Link:** [https://medium.com/@leonmusungu138/i-just-deployed-my-first-server-with-terraform-heres-how-it-went-a516eb36b144]
+- **Title:** [Your Blog Post Title]
+- **Link:** [URL to your blog post]
 
 ## Social Media
 - **Platform:** [Twitter/LinkedIn]
@@ -52,7 +52,7 @@ Please place your infrastructure diagrams in the `architecture` folder with the 
 
 ## Repository Structure
 ```
-Day3/
+Day8/
 └── Submissions/
     └── [Your GitHub Username]/
         ├── architecture/
